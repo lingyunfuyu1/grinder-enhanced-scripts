@@ -1,0 +1,30 @@
+2016-11-01 20:13:28,841 INFO  HIH-L-1603-0 : The Grinder version 3.11
+2016-11-01 20:13:28,845 INFO  HIH-L-1603-0 : Java(TM) SE Runtime Environment 1.7.0_79-b15: Java HotSpot(TM) 64-Bit Server VM (24.79-b02, mixed mode) on Windows 7 amd64 6.1
+2016-11-01 20:13:28,849 INFO  HIH-L-1603-0 : time zone is CST (+0800)
+2016-11-01 20:13:28,923 INFO  HIH-L-1603-0 : worker process 0
+2016-11-01 20:13:28,976 INFO  HIH-L-1603-0 : instrumentation agents: byte code transforming instrumenter for Jython 2.5; byte code transforming instrumenter for Java
+2016-11-01 20:13:31,414 INFO  HIH-L-1603-0 : running "call_java_method_test.py" using Jython 2.5.3 (2.5:c56500f08d34+, Aug 13 2012, 14:54:35) 
+[Java HotSpot(TM) 64-Bit Server VM (Oracle Corporation)]
+2016-11-01 20:13:31,433 INFO  HIH-L-1603-0 thread-0: starting, will do 3 runs
+2016-11-01 20:13:31,434 INFO  HIH-L-1603-0 thread-1: starting, will do 3 runs
+2016-11-01 20:13:31,435 INFO  HIH-L-1603-0 : start time is 1478002411434 ms since Epoch
+2016-11-01 20:13:31,435 INFO  HIH-L-1603-0 thread-1 [ run-0 ]: sleeping for 100 ms
+2016-11-01 20:13:31,442 INFO  HIH-L-1603-0 thread-0: finished 3 runs
+2016-11-01 20:13:31,538 INFO  HIH-L-1603-0 thread-1: finished 3 runs
+2016-11-01 20:13:31,539 INFO  HIH-L-1603-0 : elapsed time is 105 ms
+2016-11-01 20:13:31,539 INFO  HIH-L-1603-0 : Final statistics for this process:
+2016-11-01 20:13:31,545 INFO  HIH-L-1603-0 : 
+             Tests        Errors       Mean Test    Test Time    TPS          
+                                       Time (ms)    Standard                  
+                                                    Deviation                 
+                                                    (ms)                      
+
+Test 1       6            0            0.33         0.47         57.14         "call_java_method_test"
+
+Totals       6            0            0.33         0.47         57.14        
+
+  Tests resulting in error only contribute to the Errors column.          
+  Statistics for individual tests can be found in the data file, including
+  (possibly incomplete) statistics for erroneous tests. Composite tests   
+  are marked with () and not included in the totals.                      
+

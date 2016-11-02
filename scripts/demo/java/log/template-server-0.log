@@ -1,0 +1,30 @@
+2016-10-30 06:06:53,410 INFO  template-server-0 : The Grinder version 3.11
+2016-10-30 06:06:53,416 INFO  template-server-0 : OpenJDK Runtime Environment 1.7.0_99-mockbuild_2016_03_29_22_14-b00: OpenJDK 64-Bit Server VM (24.95-b01, mixed mode) on Linux amd64 2.6.32-642.el6.x86_64
+2016-10-30 06:06:53,420 INFO  template-server-0 : time zone is CST (+0800)
+2016-10-30 06:06:53,491 INFO  template-server-0 : worker process 0
+2016-10-30 06:06:53,534 INFO  template-server-0 : instrumentation agents: byte code transforming instrumenter for Jython 2.5; byte code transforming instrumenter for Java
+2016-10-30 06:06:55,584 INFO  template-server-0 : running "call_java_method_test.py" using Jython 2.5.3 (2.5:c56500f08d34+, Aug 13 2012, 14:54:35) 
+[OpenJDK 64-Bit Server VM (Oracle Corporation)]
+2016-10-30 06:06:55,609 INFO  template-server-0 thread-0: starting, will do 3 runs
+2016-10-30 06:06:55,609 INFO  template-server-0 thread-1: starting, will do 3 runs
+2016-10-30 06:06:55,609 INFO  template-server-0 : start time is 1477778815609 ms since Epoch
+2016-10-30 06:06:55,612 INFO  template-server-0 thread-1 [ run-0 ]: sleeping for 100 ms
+2016-10-30 06:06:55,626 INFO  template-server-0 thread-0: finished 3 runs
+2016-10-30 06:06:55,713 INFO  template-server-0 thread-1: finished 3 runs
+2016-10-30 06:06:55,714 INFO  template-server-0 : elapsed time is 105 ms
+2016-10-30 06:06:55,714 INFO  template-server-0 : Final statistics for this process:
+2016-10-30 06:06:55,726 INFO  template-server-0 : 
+             Tests        Errors       Mean Test    Test Time    TPS          
+                                       Time (ms)    Standard                  
+                                                    Deviation                 
+                                                    (ms)                      
+
+Test 1       6            0            0.67         0.47         57.14         "call_java_method_test"
+
+Totals       6            0            0.67         0.47         57.14        
+
+  Tests resulting in error only contribute to the Errors column.          
+  Statistics for individual tests can be found in the data file, including
+  (possibly incomplete) statistics for erroneous tests. Composite tests   
+  are marked with () and not included in the totals.                      
+

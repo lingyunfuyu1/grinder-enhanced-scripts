@@ -1,0 +1,29 @@
+2016-11-02 14:25:36,150 INFO  HIH-L-1603-0 : The Grinder version 3.11
+2016-11-02 14:25:36,154 INFO  HIH-L-1603-0 : Java(TM) SE Runtime Environment 1.7.0_79-b15: Java HotSpot(TM) 64-Bit Server VM (24.79-b02, mixed mode) on Windows 7 amd64 6.1
+2016-11-02 14:25:36,158 INFO  HIH-L-1603-0 : time zone is CST (+0800)
+2016-11-02 14:25:36,226 INFO  HIH-L-1603-0 : worker process 0
+2016-11-02 14:25:36,277 INFO  HIH-L-1603-0 : instrumentation agents: byte code transforming instrumenter for Jython 2.5; byte code transforming instrumenter for Java
+2016-11-02 14:25:39,154 INFO  HIH-L-1603-0 : registered plug-in net.grinder.plugin.http.HTTPPlugin
+2016-11-02 14:25:39,265 INFO  HIH-L-1603-0 : running "http_post_test.py" using Jython 2.5.3 (2.5:c56500f08d34+, Aug 13 2012, 14:54:35) 
+[Java HotSpot(TM) 64-Bit Server VM (Oracle Corporation)]
+2016-11-02 14:25:39,278 INFO  HIH-L-1603-0 thread-0: starting, will do 1 run
+2016-11-02 14:25:39,279 INFO  HIH-L-1603-0 : start time is 1478067939278 ms since Epoch
+2016-11-02 14:25:40,672 INFO  HIH-L-1603-0 thread-0 [ run-0, test-2 ]: https://www.google.com.hk/async/translate?vet=10ahUKEwjKntXo1vHMAhUKH5QKHU2DDoQQqDgIJzAA..i&ei=Nb5DV4qwBIq-0ATNhrqgCA&yv=2 -> 200 OK, 2521 bytes
+2016-11-02 14:25:40,677 INFO  HIH-L-1603-0 thread-0: finished 1 run
+2016-11-02 14:25:40,681 INFO  HIH-L-1603-0 : elapsed time is 1403 ms
+2016-11-02 14:25:40,681 INFO  HIH-L-1603-0 : Final statistics for this process:
+2016-11-02 14:25:40,694 INFO  HIH-L-1603-0 : 
+             Tests        Errors       Mean Test    Test Time    TPS          Mean         Response     Response     Mean time to Mean time to Mean time to 
+                                       Time (ms)    Standard                  response     bytes per    errors       resolve host establish    first byte   
+                                                    Deviation                 length       second                                 connection                
+                                                    (ms)                                                                                                    
+
+Test 2       1            0            1392.00      0.00         0.71         2521.00      1796.86      0            4.00         44.00        1378.00       "http_post_test"
+
+Totals       1            0            1392.00      0.00         0.71         2521.00      1796.86      0            4.00         44.00        1378.00      
+
+  Tests resulting in error only contribute to the Errors column.          
+  Statistics for individual tests can be found in the data file, including
+  (possibly incomplete) statistics for erroneous tests. Composite tests   
+  are marked with () and not included in the totals.                      
+

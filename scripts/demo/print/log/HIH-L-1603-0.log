@@ -1,0 +1,35 @@
+2016-11-02 16:43:51,906 INFO  HIH-L-1603-0 : The Grinder version 3.11
+2016-11-02 16:43:51,913 INFO  HIH-L-1603-0 : Java(TM) SE Runtime Environment 1.7.0_79-b15: Java HotSpot(TM) 64-Bit Server VM (24.79-b02, mixed mode) on Windows 7 amd64 6.1
+2016-11-02 16:43:51,917 INFO  HIH-L-1603-0 : time zone is CST (+0800)
+2016-11-02 16:43:52,013 INFO  HIH-L-1603-0 : worker process 0
+2016-11-02 16:43:52,091 INFO  HIH-L-1603-0 : instrumentation agents: byte code transforming instrumenter for Jython 2.5; byte code transforming instrumenter for Java
+2016-11-02 16:43:53,666 INFO  HIH-L-1603-0 : running "helloworld.py" using Jython 2.5.3 (2.5:c56500f08d34+, Aug 13 2012, 14:54:35) 
+[Java HotSpot(TM) 64-Bit Server VM (Oracle Corporation)]
+2016-11-02 16:43:53,718 INFO  HIH-L-1603-0 thread-1: starting, will do 3 runs
+2016-11-02 16:43:53,718 INFO  HIH-L-1603-0 thread-0: starting, will do 3 runs
+2016-11-02 16:43:53,718 INFO  HIH-L-1603-0 : start time is 1478076233718 ms since Epoch
+2016-11-02 16:43:53,724 INFO  HIH-L-1603-0 thread-0 [ run-0, test-1 ]: Hello, Grinder!
+2016-11-02 16:43:53,724 INFO  HIH-L-1603-0 thread-1 [ run-0, test-1 ]: Hello, Grinder!
+2016-11-02 16:43:53,726 INFO  HIH-L-1603-0 thread-1 [ run-1, test-1 ]: Hello, Grinder!
+2016-11-02 16:43:53,726 INFO  HIH-L-1603-0 thread-0 [ run-1, test-1 ]: Hello, Grinder!
+2016-11-02 16:43:53,726 INFO  HIH-L-1603-0 thread-1 [ run-2, test-1 ]: Hello, Grinder!
+2016-11-02 16:43:53,726 INFO  HIH-L-1603-0 thread-0 [ run-2, test-1 ]: Hello, Grinder!
+2016-11-02 16:43:53,727 INFO  HIH-L-1603-0 thread-1: finished 3 runs
+2016-11-02 16:43:53,727 INFO  HIH-L-1603-0 thread-0: finished 3 runs
+2016-11-02 16:43:53,729 INFO  HIH-L-1603-0 : elapsed time is 10 ms
+2016-11-02 16:43:53,729 INFO  HIH-L-1603-0 : Final statistics for this process:
+2016-11-02 16:43:53,736 INFO  HIH-L-1603-0 : 
+             Tests        Errors       Mean Test    Test Time    TPS          
+                                       Time (ms)    Standard                  
+                                                    Deviation                 
+                                                    (ms)                      
+
+Test 1       6            0            0.00         0.00         600.00        "Log method"
+
+Totals       6            0            0.00         0.00         600.00       
+
+  Tests resulting in error only contribute to the Errors column.          
+  Statistics for individual tests can be found in the data file, including
+  (possibly incomplete) statistics for erroneous tests. Composite tests   
+  are marked with () and not included in the totals.                      
+
